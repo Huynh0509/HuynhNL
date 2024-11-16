@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Trang Chủ - Huynhnl Ps19615</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/products-detail.css">
+    <script src="assets/js/script.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <input id="chk1" type="checkbox" name="">
+        <div class="logo">
+            <h1>Huynhnl Ps19615</h1>
+        </div>
+        <div class="search-box">
+            <form action="">
+                <input id="srch" type="text" name="search" placeholder="Search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Sản phẩm</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Tin tức</a></li>
+            <li>
+                <a style="font-size: 12px;" href="user/login.html">Đăng nhập</a>
+                <a style="font-size: 12px;" href="user/register.html">Đăng ký</a>
+                <a style="font-size: 12px;" href="shopping-cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+        </ul>
+        <div class="menu">
+            <label for="chk1">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
+    </header>
+
+    <!-- Chi tiết sản phẩm -->
+    <main class="product-detail">
+        <div class="product-images">
+            <div class="thumbnail-list">
+                <img src="assets/images/ProductsDetail/Product01Gray.webp" alt="Màu 1"
+                    onclick="changeImage('assets/images/ProductsDetail/Product01Gray.webp')">
+                <img src="assets/images/ProductsDetail/Product01Blue.webp" alt="Màu 2"
+                    onclick="changeImage('assets/images/ProductsDetail/Product01Blue.webp')">
+                <img src="assets/images/ProductsDetail/Product01Black.webp" alt="Màu 3"
+                    onclick="changeImage('assets/images/ProductsDetail/Product01Black.webp')">
+                <img src="assets/images/ProductsDetail/Product01DarkBlue.webp" alt="Màu 4"
+                    onclick="changeImage('assets/images/ProductsDetail/Product01DarkBlue.webp')">
+            </div>
+            <div class="main-image">
+                <img id="mainProductImage" src="assets/images/HotProducts/Product01.webp" alt="Ảnh chính">
+            </div>
+        </div>
+        <div class="product-info">
+            <h2>Bộ Quần Áo Nỉ Nam 5S Fashion Trơn Basic Slimfit BNI24001</h2>
+            <p>Giá: 539.000đ</p>
+            <select>
+                <option value="">Chọn size</option>
+                <option value="">XXL</option>
+                <option value="">XL</option>
+                <option value="">L</option>
+                <option value="">M</option>
+                <option value="">S</option>
+            </select>
+            <h3>Chi tiết sản phẩm:</h3>
+            <p>Chất liệu cao cấp, thiết kế hiện đại, bền nhưng vẫn đảm bảo tính linh hoạt, phù hợp với mọi phong cách.
+            </p>
+            <button>Mua Ngay</button>
+        </div>
+    </main>
+
+    <!-- Có thể bạn sẽ thích -->
+    <section class="related-products">
+        <h2>Có thể bạn sẽ thích</h2>
+        <div class="product-slider">
+            <div class="product">
+                <img src="assets/images/HotProducts/Product03.webp" alt="Sản phẩm 1">
+                <p>Tên sản phẩm 1</p>
+                <p>Giá: 200.000đ</p>
+            </div>
+            <div class="product">
+                <img src="assets/images/HotProducts/Product06.webp" alt="Sản phẩm 2">
+                <p>Tên sản phẩm 2</p>
+                <p>Giá: 220.000đ</p>
+            </div>
+            <div class="product">
+                <img src="assets/images/HotProducts/Product09.webp" alt="Sản phẩm 3">
+                <p>Tên sản phẩm 3</p>
+                <p>Giá: 180.000đ</p>
+            </div>
+            <div class="product">
+                <img src="assets/images/HotProducts/Product12.webp" alt="Sản phẩm 4">
+                <p>Tên sản phẩm 4</p>
+                <p>Giá: 180.000đ</p>
+            </div>
+            <div class="product">
+                <img src="assets/images/HotProducts/Product15.webp" alt="Sản phẩm 5">
+                <p>Tên sản phẩm 5</p>
+                <p>Giá: 180.000đ</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-left">
+            <h1 class="logo">Huynhnl Ps19615</h1>
+            <a href="#"><i class="fa-brands fa-square-facebook"></i> facebook.com/username</a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i> instagram.com/username</a>
+            <a href="#"><i class="fa-solid fa-envelope"></i> username@gmail.com</a>
+            <a href="#"><i class="fa-solid fa-phone"></i></i> 0000.000.000</a>
+        </div>
+        <div class="footer-center">
+            <a href="#">
+                <p>Hỗ trợ khách hàng</p>
+            </a>
+            <a href="#">
+                <p>Thông tin về shop</p>
+            </a>
+            <a href="#">
+                <p>Địa chỉ cửa hàng</p>
+            </a>
+        </div>
+        <div class="footer-right">
+            <img src="assets/images/Footer/logo-da-thong-bao-bo-cong-thuong.webp" alt="Logo Bộ Công Thương">
+            <p>© 2024 Bản quyền thuộc về Huynhnl Ps19615</p>
+        </div>
+    </footer>
+</body>
+
+</html>
